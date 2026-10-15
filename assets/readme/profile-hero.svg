@@ -1,0 +1,214 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 380"
+  width="100%"
+  height="auto"
+  role="img"
+  aria-label="hainoir frontend developer profile banner"
+>
+  <title>hainoir Frontend Developer Profile</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f" />
+      <stop offset="0.58" stop-color="#0b1426" />
+      <stop offset="1" stop-color="#111334" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" />
+      <stop offset="1" stop-color="#a78bfa" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#64748b" opacity=".18" />
+    </pattern>
+    <style>
+      <![CDATA[
+            .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+            .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+            .muted { fill: #94a3b8; }
+            .soft { fill: #cbd5e1; }
+            .cyan { fill: #22d3ee; }
+            .violet { fill: #a78bfa; }
+            .panel { fill: #0f1b30; stroke: #24324a; stroke-width: 1.2; }
+            .chip { fill: #13223a; stroke: #2a3b57; stroke-width: 1; }
+            @media (prefers-color-scheme: light) {
+              .page { fill: #f8fafc; }
+              .panel { fill: #ffffff; stroke: #dbe4f0; }
+              .chip { fill: #f1f5f9; stroke: #d6e0ec; }
+              .title { fill: #0f172a; }
+              .muted { fill: #64748b; }
+              .soft { fill: #334155; }
+              .gridline { stroke: #dbe4f0; }
+            }
+          ]]>
+    </style>
+  </defs>
+
+  <rect class="page" width="1200" height="380" rx="20" fill="url(#bg)" />
+  <rect width="1200" height="380" rx="20" fill="url(#dots)" />
+  <path
+    d="M0 304 C210 240 330 390 560 312 S930 238 1200 300"
+    fill="none"
+    stroke="#22d3ee"
+    stroke-opacity=".12"
+    stroke-width="2"
+  />
+  <path
+    d="M0 326 C230 260 380 404 610 326 S960 262 1200 318"
+    fill="none"
+    stroke="#a78bfa"
+    stroke-opacity=".10"
+    stroke-width="2"
+  />
+
+  <g transform="translate(58 48)">
+    <rect width="244" height="28" rx="14" class="chip" />
+    <circle cx="15" cy="14" r="4" fill="#34d399" filter="url(#glow)" />
+    <text
+      x="28"
+      y="18"
+      class="mono cyan"
+      font-size="11"
+      font-weight="700"
+      letter-spacing="1.4"
+    >
+      FRONTEND ENGINEER // 2027
+    </text>
+
+    <text
+      x="0"
+      y="84"
+      class="sans title"
+      fill="#f8fafc"
+      font-size="43"
+      font-weight="800"
+      letter-spacing="-1.2"
+    >
+      胡琦 / hainoir
+    </text>
+    <text x="0" y="120" class="mono muted" font-size="17">
+      build interfaces · model complexity · verify delivery
+    </text>
+
+    <text x="0" y="164" class="sans soft" font-size="16">
+      天津商业大学 · 计算机科学与技术 · 2027 届
+    </text>
+    <text x="0" y="190" class="sans muted" font-size="15">
+      React / Vue 双栈 · 复杂业务 · 测试验证 · AI 协同研发
+    </text>
+
+    <g transform="translate(0 224)">
+      <g>
+        <rect width="154" height="42" rx="9" class="panel" />
+        <circle cx="18" cy="21" r="4" fill="#22d3ee" />
+        <text x="31" y="26" class="sans soft" font-size="13">
+          React / Next.js
+        </text>
+      </g>
+      <g transform="translate(166)">
+        <rect width="142" height="42" rx="9" class="panel" />
+        <circle cx="18" cy="21" r="4" fill="#34d399" />
+        <text x="31" y="26" class="sans soft" font-size="13">
+          Vue / TypeScript
+        </text>
+      </g>
+      <g transform="translate(320)">
+        <rect width="162" height="42" rx="9" class="panel" />
+        <circle cx="18" cy="21" r="4" fill="#a78bfa" />
+        <text x="31" y="26" class="sans soft" font-size="13">
+          Vitest / Playwright
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(664 42)">
+    <rect width="478" height="296" rx="16" class="panel" />
+    <line x1="0" y1="42" x2="478" y2="42" stroke="#24324a" class="gridline" />
+    <circle cx="20" cy="21" r="4" fill="#fb7185" />
+    <circle cx="34" cy="21" r="4" fill="#fbbf24" />
+    <circle cx="48" cy="21" r="4" fill="#34d399" />
+    <text x="68" y="25" class="mono muted" font-size="11">
+      ~/profile/engineering-evidence
+    </text>
+    <rect x="391" y="12" width="67" height="20" rx="5" class="chip" />
+    <text x="404" y="26" class="mono cyan" font-size="10" font-weight="700">
+      READY
+    </text>
+
+    <g transform="translate(20 60)">
+      <g>
+        <text x="0" y="12" class="mono muted" font-size="10" letter-spacing="1">
+          01 / SEARCH ENGINEERING
+        </text>
+        <text x="0" y="34" class="sans soft" font-size="14" font-weight="650">
+          Hybrid RAG · Recall@10 100%
+        </text>
+        <line
+          x1="0"
+          y1="48"
+          x2="438"
+          y2="48"
+          stroke="#24324a"
+          class="gridline"
+        />
+      </g>
+      <g transform="translate(0 61)">
+        <text x="0" y="12" class="mono muted" font-size="10" letter-spacing="1">
+          02 / PERFORMANCE
+        </text>
+        <text x="0" y="34" class="sans soft" font-size="14" font-weight="650">
+          Dashboard first response · 5s → 1s
+        </text>
+        <line
+          x1="0"
+          y1="48"
+          x2="438"
+          y2="48"
+          stroke="#24324a"
+          class="gridline"
+        />
+      </g>
+      <g transform="translate(0 122)">
+        <text x="0" y="12" class="mono muted" font-size="10" letter-spacing="1">
+          03 / INTERNSHIP DELIVERY
+        </text>
+        <text x="0" y="34" class="sans soft" font-size="14" font-weight="650">
+          115 files i18n · Repository · D3 graph
+        </text>
+        <line
+          x1="0"
+          y1="48"
+          x2="438"
+          y2="48"
+          stroke="#24324a"
+          class="gridline"
+        />
+      </g>
+      <g transform="translate(0 183)">
+        <text x="0" y="12" class="mono muted" font-size="10" letter-spacing="1">
+          04 / AI ENGINEERING
+        </text>
+        <text x="0" y="34" class="sans soft" font-size="14" font-weight="650">
+          Agents · Skills · Tests · Acceptance
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <rect
+    x="58"
+    y="346"
+    width="1084"
+    height="2"
+    rx="1"
+    fill="url(#accent)"
+    opacity=".7"
+  />
+</svg>
